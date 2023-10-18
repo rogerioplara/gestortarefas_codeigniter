@@ -8,7 +8,7 @@ class UsuariosTable extends Migration
 {
     // Migrations criam as tabelas no banco de dados
     // para criar o arquivo no spark:
-    // php spark make:migration NomeDaTabela
+    // php spark make:migration NomeDaTabelaTable
     // para rodar as migrations:
     // php spark migrate
     // para dar rollback:

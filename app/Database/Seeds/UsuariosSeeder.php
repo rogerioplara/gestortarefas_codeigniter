@@ -10,10 +10,10 @@ class UsuariosSeeder extends Seeder
     {
         // Os seeds são dados dummy para testes
         // para criar:
-        // php spark make:seeder NomeDoSeeder
+        // php spark make:seeder NomeDoSeederSeeder
 
         // para rodar no banco de dados:
-        // php spark db:seed NomeDaTabela
+        // php spark db:seed NomeDoSeederSeeder
 
         // create 3 usuarios
         $usuarios = [
