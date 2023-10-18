@@ -30,6 +30,8 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+// Criação de uma rota GET, o caminho é o / e o segundo argumento é o método que vai ser chamado no controller Main
+$routes->get('/', 'Main::index');
 
 /*
  * --------------------------------------------------------------------
