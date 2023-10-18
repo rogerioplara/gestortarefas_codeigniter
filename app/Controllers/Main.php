@@ -10,27 +10,29 @@ class Main extends BaseController
 {
     public function index()
     {
-        // echo "Hello World";
+        // // echo "Hello World";
 
-        /*
-        A partir do momento que tenho o model, posso instanciar um objeto que já possui algumas funcionalidades
-        */
-        $model_usuarios = new UsuariosModel();
-        $usuarios = $model_usuarios->findAll();
+        // /*
+        // A partir do momento que tenho o model, posso instanciar um objeto que já possui algumas funcionalidades
+        // */
+        // $model_usuarios = new UsuariosModel();
+        // $usuarios = $model_usuarios->findAll();
 
-        // Função dd(); Dump and Die - equivalente ao var_dump
-        // dd($usuarios);
-        // ou
-        echo '<pre>';
-        print_r($usuarios);
+        // // Função dd(); Dump and Die - equivalente ao var_dump
+        // // dd($usuarios);
+        // // ou
+        // echo '<pre>';
+        // print_r($usuarios);
 
-        // tasks
-        $model_tasks = new TasksModel();
-        $tasks = $model_tasks->findAll();
+        // // tasks
+        // $model_tasks = new TasksModel();
+        // $tasks = $model_tasks->findAll();
 
-        // dd($tasks);
-        // ou
-        echo '<pre>';
-        print_r($tasks);
+        // // dd($tasks);
+        // // ou
+        // echo '<pre>';
+        // print_r($tasks);
+
+        return view('teste');
     }
 }
