@@ -30,18 +30,18 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
-# database.default.DBDriver = MySQLi
-# database.default.DBPrefix =
-# database.default.port = 3306
+database.default.hostname = localhost
+database.default.database = ci_tasks
+database.default.username = user_ci_tasks
+database.default.password = Xe18y05oJ7C66ijeyA7A5OBoQ7x06a
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
 
 # database.tests.hostname = localhost
-# database.tests.database = ci4_test
-# database.tests.username = root
-# database.tests.password = root
+# database.tests.database = ci_tasks
+# database.tests.username = user_ci_tasks
+# database.tests.password = Xe18y05oJ7C66ijeyA7A5OBoQ7x06a
 # database.tests.DBDriver = MySQLi
 # database.tests.DBPrefix =
 # database.tests.port = 3306
