@@ -32,6 +32,8 @@ $routes->set404Override();
 
 // Criação de uma rota GET, o caminho é o / e o segundo argumento é o método que vai ser chamado no controller Main
 $routes->get('/', 'Main::index');
+$routes->get('/login', 'Main::login');
+$routes->post('/login_submit', 'Main::login_submit');
 
 /*
  * --------------------------------------------------------------------

@@ -33,6 +33,28 @@ class Main extends BaseController
         // echo '<pre>';
         // print_r($tasks);
 
-        return view('teste');
+        // return view('teste');
+    }
+
+    public function login()
+    {
+        return view('login_frm');
+    }
+
+    public function login_submit()
+    {
+        // pegando os valores do form
+        $usuario = $this->request->getPost('text_usuario');
+        $senha = $this->request->getPost('text_senha');
+
+        if (empty($usuario) || empty($senha)) {
+            return redirect()->to('login')->withInput()->with('error', 'Usuário e senha obrigatórios');
+        }
+
+        echo 'Usuário: ' . $usuario . '<br>';
+        echo 'Senha: ' . $senha . '<br>';
+
+        // Como fazemos para validar usuário e senha
+
     }
 }
