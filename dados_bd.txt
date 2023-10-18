@@ -1,3 +1,0 @@
-bd: ci_tasks
-user: user_ci_tasks
-pass: Xe18y05oJ7C66ijeyA7A5OBoQ7x06a
