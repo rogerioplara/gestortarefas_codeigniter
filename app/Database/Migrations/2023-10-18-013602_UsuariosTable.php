@@ -6,6 +6,14 @@ use CodeIgniter\Database\Migration;
 
 class UsuariosTable extends Migration
 {
+    // Migrations criam as tabelas no banco de dados
+    // para criar o arquivo no spark:
+    // php spark make:migration NomeDaTabela
+    // para rodar as migrations:
+    // php spark migrate
+    // para dar rollback:
+    // php spark migrade:rollback
+
     // Método que vai ser executado quando a quiser que a estrutura seja adicionada a base de dados
     public function up()
     {
